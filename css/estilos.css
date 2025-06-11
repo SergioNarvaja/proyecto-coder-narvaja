@@ -1,0 +1,344 @@
+@import url("https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap");
+main section p, main section h2, main section h1 {
+  color: #ffffff;
+  font-weight: 300;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Playpen Sans Deva", sans-serif;
+  background-color: #422100 !important;
+}
+
+.bg-body-tertiary {
+  --bs-bg-opacity: 0;
+}
+
+.figure-img {
+  list-style: none;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 90px;
+  right: 60px;
+  height: 10px;
+  width: 10px;
+}
+
+.grids {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  object-fit: cover;
+  gap: 10px;
+  border: solid #004221 5px;
+  margin: 2px;
+  padding: 5px;
+}
+
+.grids div img {
+  width: 700px;
+  height: 700px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.contacto h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 2px;
+  border: #004221 solid 5px;
+  width: 99%;
+  height: 12vh;
+  text-align: center;
+  background-color: #004221;
+}
+
+.contacto h2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: inherit;
+  margin: 10px;
+  padding: 2px;
+  border: #004221 solid 5px;
+  width: 99%;
+  height: 28vh;
+  text-align: center;
+  background-color: #004221;
+}
+
+.formulario {
+  width: 99%;
+  height: 30vh;
+  border: #004221 solid 5px;
+  margin: 2px;
+  padding: 2px;
+  font-weight: 100px;
+  color: #ffffff;
+}
+
+header nav {
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center;
+}
+header nav ul {
+  list-style: none;
+  text-align: left;
+}
+header nav ul li {
+  display: inline;
+  justify-items: left;
+  margin: 5px;
+  font-size: 20px;
+  font-weight: 600px;
+  padding: 2px;
+  border: solid #004221;
+  border-radius: 15px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #ffffff !important;
+}
+header nav ul li a :hover {
+  color: aqua !important;
+}
+header img {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  border: solid 5px #004221;
+}
+
+main {
+  background-image: url(../imagenes/banner-masaje-piedras.jpg);
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+main section h1 {
+  font-size: 60px;
+}
+main section h2 {
+  font-size: 50px;
+}
+main section p {
+  font-size: 40px;
+}
+
+footer {
+  margin: 10px;
+  padding: 10px;
+  color: #ffffff;
+}
+footer a img {
+  height: 60px;
+  width: 60px;
+  margin: 10px;
+}
+
+@media screen and (max-width: 991px) {
+  header img {
+    height: 150px;
+    width: 150px;
+    margin: 8px;
+    border: solid 4px #004221;
+  }
+  main h1 {
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 250;
+    text-align: center;
+  }
+  main h2 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 250;
+    text-align: center;
+  }
+  main p {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 250;
+    text-align: center;
+  }
+  .grids {
+    gap: 8px;
+    border: solid #004221 4px;
+    margin: 2px;
+    padding: 4px;
+  }
+  .grids div img {
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 862) {
+  .contacto div h1 {
+    font-size: 40px;
+    font-weight: 200;
+    margin: 5px;
+    padding: 1px;
+    border: #004221 solid 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #004221;
+  }
+  .coordinacion div h2 {
+    font-size: 35px;
+    font-weight: 200;
+    margin: 5px;
+    padding: 1px;
+    border: #004221 solid 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #004221;
+  }
+}
+@media screen and (max-width: 750px) {
+  header img {
+    height: 140px;
+    width: 140px;
+    margin: 6px;
+    border: solid 3px #004221;
+  }
+  main h1 {
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 200;
+    text-align: center;
+  }
+  main h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 200;
+    text-align: center;
+  }
+  main p {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .grids {
+    gap: 6px;
+    border: solid #004221 3px;
+    margin: 1px;
+    padding: 3px;
+  }
+  .grids div img {
+    width: 500px;
+    height: 500px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  footer {
+    margin: 8px;
+    padding: 8px;
+    color: #ffffff;
+  }
+  footer a img {
+    height: 50px;
+    width: 50px;
+    margin: 8px;
+  }
+}
+@media screen and (max-width: 600px) {
+  header img {
+    height: 135px;
+    width: 135px;
+    margin: 5px;
+    border: solid 2px #004221;
+  }
+  main h1 {
+    color: #ffffff;
+    font-size: 45px;
+    font-weight: 200;
+    text-align: center;
+  }
+  main h2 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 200;
+    text-align: center;
+  }
+  main p {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 200;
+    text-align: center;
+  }
+  .grids {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    object-fit: cover;
+    gap: 6px;
+    border: solid #004221 3px;
+    margin: 1px;
+    padding: 3px;
+  }
+  .grids div img {
+    width: 600px;
+    height: 600px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  header img {
+    height: 130px;
+    width: 130px;
+    margin: 4px;
+    border: solid 1px #004221;
+  }
+  main h1 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 150;
+    text-align: center;
+  }
+  main h2 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 150;
+    text-align: center;
+  }
+  main p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+  }
+  .grids {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    object-fit: cover;
+    gap: 5px;
+    border: solid #004221 2px;
+    margin: 1px;
+    padding: 1px;
+  }
+  .grids div img {
+    width: 400px;
+    height: 400px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */

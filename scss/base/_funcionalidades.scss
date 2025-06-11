@@ -1,0 +1,24 @@
+$color-principal: #004221;
+$color-secundario: #ffffff;
+$color-terciario: #422100;
+
+$colores: black,
+            red,
+            blue,
+            brown,
+            lightblue,
+            pink,
+            green;
+            
+
+%boton{
+    color: $color-secundario;
+    font-weight: 300;
+    text-align: center
+}
+
+@mixin flex($flex, $justify, $align){
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
+}
