@@ -8,8 +8,10 @@ $colores: black,
             brown,
             lightblue,
             pink,
-            green;
-            
+            green,
+            $color-principal,
+            $color-secundario,
+            $color-terciario;
 
 %boton{
     color: $color-secundario;
