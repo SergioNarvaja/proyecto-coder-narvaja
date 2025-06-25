@@ -27,6 +27,10 @@
         text-align: center;
     }
 
+    .duracion {
+        font-size: 23px
+    }
+
     .grids {
         gap: 8px;
         margin: 2px;
@@ -39,6 +43,24 @@
         border: solid #004221 4px;
         max-width: 100%;
         max-height: 100%
+    }
+
+    .tipos-de-masajes div img {
+        width: 350px;
+        height: 350px;
+        border: solid #004221 5px;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 4px;
+    }
+
+    .tipos-de-masajes div div {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1fr;
+        grid-template-rows: 1fr;
+        margin: 4px;
+        padding: 4px;
+        text-align: center, justify;
     }
 }
 
@@ -100,8 +122,12 @@
         text-align: center;
     }
 
+    .duracion {
+        font-size: 20px
+    }
+
     .grids {
-        gap: 6px;        
+        gap: 6px;
         margin: 1px;
         padding: 3px;
     }
@@ -113,6 +139,32 @@
         max-width: 100%;
         max-height: 100%
     }
+
+    .tipos-de-masajes div img {
+        width: 300px;
+        height: 300px;
+        border: solid #004221 3px;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 3px;
+    }
+
+    .tipos-de-masajes div div {
+        display: grid;
+        grid-template-columns: 1fr 1fr 0.5fr;
+        grid-template-rows: 1fr;
+        margin: 3px;
+        padding: 3px;
+        text-align: center, justify;
+    }
+
+.dolores div img {
+    width: 650px;
+    height: 650px;
+    border: solid #004221 4px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 4px;}
 
     footer {
         margin: 8px;
@@ -156,12 +208,16 @@
         text-align: center;
     }
 
+    .duracion {
+        font-size: 18px
+    }
+
     .grids {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
         object-fit: cover;
-        gap: 6px;        
+        gap: 6px;
         margin: 1px;
         padding: 3px;
     }
@@ -173,6 +229,36 @@
         max-width: 100%;
         max-height: 100%
     }
+
+    .tipos-de-masajes div img {
+        width: 250px;
+        height: 250px;
+        border: solid #004221 3px;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 3px;
+    }
+.personalizado {
+        display: grid !important;
+        grid-template-columns: auto !important;
+        grid-template-rows: auto !important;
+        object-fit: cover;}
+        
+    .tipos-de-masajes div div {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        margin: 3px;
+        padding: 3px;
+        text-align: center, justify;
+    }
+    .dolores div img {
+    width: 550px;
+    height: 550px;
+    border: solid #004221 3px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 3px;}
 
 }
 
@@ -205,12 +291,16 @@
         text-align: center;
     }
 
+    .duracion {
+        font-size: 15px
+    }
+
     .grids {
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: auto;
         object-fit: cover;
-        gap: 5px;        
+        gap: 5px;
         margin: 1px;
         padding: 1px;
     }
@@ -222,4 +312,33 @@
         max-width: 100%;
         max-height: 100%
     }
+
+    .tipos-de-masajes div img {
+        width: 200px;
+        height: 200px;
+        border: solid #004221 2px;
+        max-width: 100%;
+        max-height: 100%;
+        margin: 2px;
+    }
+
+    .personalizado {
+        display: grid !important;
+        grid-template-columns: auto !important;
+        grid-template-rows: auto !important;
+        object-fit: cover;
+    }
+
+    .tipos-de-masajes div div {
+        margin: 2px;
+        padding: 2px;
+        text-align: center, justify;
+    }
+    .dolores div img {
+    width: 500px;
+    height: 500px;
+    border: solid #004221 2px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2px;}
 }

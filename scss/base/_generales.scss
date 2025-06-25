@@ -1,54 +1,122 @@
 @import url('https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=swap');
-*{margin: 0;padding: 0}
-body{font-family: "Playpen Sans Deva", sans-serif;background-color: $color-terciario !important}
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+body {
+    font-family: "Playpen Sans Deva", sans-serif;
+    background-color: $color-terciario !important
+}
+
 .bg-body-tertiary {
-    --bs-bg-opacity: 0;}
-.figure-img { list-style: none;}
-.fixed{
+    --bs-bg-opacity: 0;
+}
+
+.figure-img {
+    list-style: none;
+}
+
+.fixed {
     position: fixed;
     bottom: 90px;
     right: 60px;
-    height: 10px; 
-    width: 10px;}
-.grids {display: grid;
+    height: 10px;
+    width: 10px;
+}
+
+.grids {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     object-fit: cover;
-    gap: 10px ;
-    border: solid $color-principal 5px;
+    gap: 10px;
     margin: 2px;
-    padding: 5px;}   
-.grids div img{
+    padding: 5px;
+}
+
+.grids div img {
     width: 700px;
     height: 700px;
+    border: solid $color-principal 5px;
     max-width: 100%;
-    max-height: 100%}
+    max-height: 100%
+}
 
-.contacto h1{display: flex;
-        justify-content:center ;
-        align-items: center;
-        margin: 10px;
-        padding: 2px;
-        border: $color-principal solid 5px;
-        width: 99%;
-        height: 12vh;
-        text-align: center;
-        background-color: $color-principal;}
-.contacto h2{display: flex;
-            justify-content:space-between ;
-            align-items:inherit;
-            margin: 10px;
-            padding: 2px;
-            border: $color-principal solid 5px;
-            width: 99%;
-            height: 28vh;
-            text-align: center;
-            background-color: $color-principal}
-.formulario{width: 99%;
-            height: 30vh;
-            border: $color-principal solid 5px;
-            margin: 2px;
-            padding: 2px;
-            font-weight: 100px; color: $color-secundario;}
-            
-.duracion{font-size: 30px}
+.contacto div h1 {
+    margin: 5px;
+    padding: 1px;
+    border: $color-principal solid 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: $color-principal;
+
+}
+
+.coordinacion div h2 {
+    margin: 5px;
+    padding: 1px;
+    border: #004221 solid 5px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: #004221;
+
+}
+
+.formulario {
+    width: 100%;
+    height: auto;
+    border: #004221 solid 5px;
+    margin: 2px;
+    padding: 2px;
+    font-weight: 100px;
+    color: #ffffff;
+}
+
+.duracion {
+    font-size: 25px
+}
+
+.tipos-de-masajes div img {
+    width: 400px;
+    height: 400px;
+    border: solid #004221 5px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+}
+
+.tipos-de-masajes div div {
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 5px;
+    padding: 5px;
+    text-align: center, justify;
+}
+
+.personalizado {
+    display: grid;
+    grid-template-columns: 1.5fr 1.5fr 2fr 1fr !important;
+    grid-template-rows: 1fr !important;
+    margin: 5px;
+    padding: 5px;
+    text-align: center, justify;
+}
+
+.dolores div img {
+    width: 700px;
+    height: 700px;
+    border: solid #004221 5px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 5px;
+}
+.mapa {
+    border: solid #004221 5px;
+    max-width: max-content;
+    margin: 5px;
+}
