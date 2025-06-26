@@ -308,8 +308,8 @@ footer a img {
     max-height: 100%;
   }
   .tipos-de-masajes div img {
-    width: 300px;
-    height: 300px;
+    width: 310px;
+    height: 310px;
     border: solid #004221 3px;
     max-width: 100%;
     max-height: 100%;
@@ -324,8 +324,8 @@ footer a img {
     text-align: center, justify;
   }
   .dolores div img {
-    width: 650px;
-    height: 650px;
+    width: 600px;
+    height: 600px;
     border: solid #004221 4px;
     max-width: 100%;
     max-height: 100%;
@@ -380,15 +380,15 @@ footer a img {
     padding: 3px;
   }
   .grids div img {
-    width: 600px;
-    height: 600px;
+    width: 450px;
+    height: 450px;
     border: solid #004221 3px;
     max-width: 100%;
     max-height: 100%;
   }
   .tipos-de-masajes div img {
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     border: solid #004221 3px;
     max-width: 100%;
     max-height: 100%;
@@ -409,41 +409,41 @@ footer a img {
     text-align: center, justify;
   }
   .dolores div img {
-    width: 550px;
-    height: 550px;
+    width: 450px;
+    height: 450px;
     border: solid #004221 3px;
     max-width: 100%;
     max-height: 100%;
     margin: 3px;
   }
 }
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 475px) {
   header img {
-    height: 130px;
-    width: 130px;
+    height: 133px;
+    width: 133px;
     margin: 4px;
     border: solid 1px #004221;
   }
   main h1 {
     color: #ffffff;
-    font-size: 40px;
-    font-weight: 150;
+    font-size: 35px;
+    font-weight: 120;
     text-align: center;
   }
   main h2 {
     color: #ffffff;
-    font-size: 30px;
-    font-weight: 150;
+    font-size: 25px;
+    font-weight: 120;
     text-align: center;
   }
   main p {
     color: #ffffff;
-    font-size: 20px;
-    font-weight: 150;
+    font-size: 15px;
+    font-weight: 120;
     text-align: center;
   }
   .duracion {
-    font-size: 15px;
+    font-size: 12px;
   }
   .grids {
     display: grid;
@@ -455,15 +455,15 @@ footer a img {
     padding: 1px;
   }
   .grids div img {
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     border: solid #004221 2px;
     max-width: 100%;
     max-height: 100%;
   }
   .tipos-de-masajes div img {
-    width: 200px;
-    height: 200px;
+    width: 350px;
+    height: 350px;
     border: solid #004221 2px;
     max-width: 100%;
     max-height: 100%;
@@ -481,8 +481,87 @@ footer a img {
     text-align: center, justify;
   }
   .dolores div img {
-    width: 500px;
-    height: 500px;
+    width: 350px;
+    height: 350px;
+    border: solid #004221 2px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2px;
+  }
+}
+@media screen and (max-width: 350px) {
+  header img {
+    height: 120px;
+    width: 120px;
+    margin: 3px;
+    border: solid 1px #004221;
+  }
+  main h1 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 150;
+    text-align: center;
+  }
+  main h2 {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 150;
+    text-align: center;
+  }
+  main p {
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 150;
+    text-align: center;
+  }
+  .fixed {
+    position: fixed;
+    bottom: 95px;
+    right: 65px;
+    height: 8px;
+    width: 8px;
+  }
+  .duracion {
+    font-size: 10px;
+  }
+  .grids {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    object-fit: cover;
+    gap: 5px;
+    margin: 1px;
+    padding: 1px;
+  }
+  .grids div img {
+    width: 300px;
+    height: 300px;
+    border: solid #004221 2px;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .tipos-de-masajes div img {
+    width: 250px;
+    height: 250px;
+    border: solid #004221 2px;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 2px;
+  }
+  .personalizado {
+    display: grid !important;
+    grid-template-columns: auto !important;
+    grid-template-rows: auto !important;
+    object-fit: cover;
+  }
+  .tipos-de-masajes div div {
+    margin: 2px;
+    padding: 2px;
+    text-align: center, justify;
+  }
+  .dolores div img {
+    width: 250px;
+    height: 250px;
     border: solid #004221 2px;
     max-width: 100%;
     max-height: 100%;
